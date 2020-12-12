@@ -1,14 +1,14 @@
 <div align="center">
 
-  [![Spectrum](./public/img/media.png)](https://spectrum.chat)
+  [![Pluto](./public/img/media.png)](https://plutoapp.chat)
 
   ### Simple, powerful online communities.
 
 </div>
 
-This is the main monorepo codebase of [Spectrum](https://spectrum.chat). Every single line of code that's not packaged into a reusable library is in this repository.
+This is the main monorepo codebase of [Pluto](https://plutoapp.chat), the deployable fork of [Spectrum](https://spectrum.chat). Every single line of code that's not packaged into a reusable library is in this repository.
 
-## What is Spectrum?
+## What is Pluto?
 
 ### Vision
 
@@ -149,12 +149,12 @@ We run Prettier on-commit, which means you can write code in whatever style you 
 The first step to running Spectrum locally is downloading the code by cloning the repository:
 
 ```sh
-git clone git@github.com:withspectrum/spectrum.git
+git clone git@github.com:rororobby/pluto.git
 ```
  If you get `Permission denied` error using `ssh` refer [here](https://help.github.com/articles/error-permission-denied-publickey/)
 or use `https` link as a fallback.
 ```sh
-git clone https://github.com/withspectrum/spectrum.git
+git clone https://github.com/rororobby/pluto.git
 ```
 
 #### Installation

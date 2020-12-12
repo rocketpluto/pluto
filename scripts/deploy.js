@@ -11,7 +11,7 @@ const exec = process.env.DEBUG
     }
   : execSync;
 // Append --scope space-program to all now commands
-const now = (cmd = '') => `now ${cmd} --scope space-program`;
+const now = (cmd = '') => `now ${cmd}`;
 
 const VALID_SERVERS = [
   'all',

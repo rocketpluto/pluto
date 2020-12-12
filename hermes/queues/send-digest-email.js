@@ -56,8 +56,8 @@ export default async (job: Job<SendDigestEmailJobData>): Promise<void> => {
 
   const preheader =
     timeframe === 'daily'
-      ? `Your Spectrum daily digest · ${month} ${day}, ${year}`
-      : `Your Spectrum weekly digest · ${month} ${day}, ${year}`;
+      ? `Your Pluto daily digest · ${month} ${day}, ${year}`
+      : `Your Pluto weekly digest · ${month} ${day}, ${year}`;
 
   try {
     return sendEmail({

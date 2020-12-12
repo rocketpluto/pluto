@@ -1,11 +1,11 @@
 {
   "rules": [
-    { "pathname": "/api", "dest": "api.spectrum.chat" },
-    { "pathname": "/api/**", "dest": "api.spectrum.chat" },
-    { "pathname": "/auth", "dest": "api.spectrum.chat" },
-    { "pathname": "/auth/**", "dest": "api.spectrum.chat" },
-    { "pathname": "/websocket", "dest": "api.spectrum.chat" },
-    { "pathname": "/websocket/**", "dest": "api.spectrum.chat" },
-    { "dest": "hyperion.workers.spectrum.chat" }
+    { "pathname": "/api", "dest": "api.plutoapp.chat" },
+    { "pathname": "/api/**", "dest": "api.plutoapp.chat" },
+    { "pathname": "/auth", "dest": "api.plutoapp.chat" },
+    { "pathname": "/auth/**", "dest": "api.plutoapp.chat" },
+    { "pathname": "/websocket", "dest": "api.plutoapp.chat" },
+    { "pathname": "/websocket/**", "dest": "api.plutoapp.chat" },
+    { "dest": "hyperion.workers.plutoapp.chat" }
   ]
 }

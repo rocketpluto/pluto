@@ -37,7 +37,7 @@ addSecurityMiddleware(app, { enableNonce: true, enableCSP: true });
 app.use(
   ['/api', '/api/**'],
   createProxyMiddleware({
-    target: 'https://api.spectrum.chat',
+    target: 'https://api.plutoapp.chat',
     changeOrigin: true,
   })
 );
@@ -45,7 +45,7 @@ app.use(
 app.use(
   ['/auth', '/auth/**'],
   createProxyMiddleware({
-    target: 'https://api.spectrum.chat',
+    target: 'https://api.plutoapp.chat',
     changeOrigin: true,
   })
 );
@@ -53,7 +53,7 @@ app.use(
 app.use(
   ['/websocket', '/websocket/**'],
   createProxyMiddleware({
-    target: 'https://api.spectrum.chat',
+    target: 'https://api.plutoapp.chat',
     changeOrigin: true,
     ws: true,
   })

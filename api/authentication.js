@@ -47,7 +47,7 @@ const GITHUB_OAUTH_CLIENT_ID = IS_PROD
   : 'ed3e924f4a599313c83b';
 
 const CALLBACK_BASE = IS_PROD
-  ? 'https://spectrum.chat'
+  ? 'https://plutoapp.chat'
   : 'http://localhost:3001';
 
 const isSerializedJSON = (str: string) =>
