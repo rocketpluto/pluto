@@ -65,10 +65,10 @@ servers.forEach(s => {
   const type = serverType(s);
 
   exec(
-    `docker build -t spectrum_${s} -t registry.heroku.com/spectrum-chat-${s}/${type} -f docker/Dockerfile.${s} .`
+    `docker build -t spectrum_${s} -t registry.heroku.com/plutoapp-chat-${s}/${type} -f docker/Dockerfile.${s} .`
   );
 
-  exec(`docker push registry.heroku.com/spectrum-chat-${s}/${type}`);
+  exec(`docker push registry.heroku.com/plutoapp-chat-${s}/${type}`);
 });
 
 /*
