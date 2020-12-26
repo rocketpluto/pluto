@@ -6,6 +6,12 @@
 
 </div>
 
+<div align="center">
+  
+  [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/withspectrum/spectrum)
+
+</div>
+
 This is the main monorepo codebase of [Pluto](https://plutoapp.chat), the deployable fork of [Spectrum](https://spectrum.chat). Every single line of code that's not packaged into a reusable library is in this repository.
 
 ## What is Pluto?

@@ -222,6 +222,7 @@
     "event-stream": "3.3.4"
   },
   "scripts": {
+    "gitpod": "echo \"You're using Gitpod!\"",
     "start": "NODE_ENV=production node main.js",
     "start:athena": "cross-env NODE_ENV=production node build-athena/main.js",
     "start:hermes": "cross-env NODE_ENV=production node build-hermes/main.js",
